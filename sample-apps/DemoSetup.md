@@ -14,22 +14,6 @@ These instructions will help you get setup to run a demo similar to what was don
     ```
     git clone https://github.com/jtmelton/appsensor.git
     ```
-  - get into appsensor directory
-  
-    ```
-    cd appsensor
-    ```
-  - install multi-module parent 
-  
-    ```
-    mvn -N install 
-    ```
-  -  run the tests and install locally
-  
-    ```
-    mvn install
-    ```
-
 3. **Install MySQL**
 
   - follow OS-specific install process (this demo assumes localhost, [Problems have been noted](https://github.com/jtmelton/appsensor/issues/87) with MySQL 8.x but MySQL 5.7.x should work fine)  
@@ -47,16 +31,7 @@ These instructions will help you get setup to run a demo similar to what was don
   mvn spring-boot:run -DAPPSENSOR_WEB_SOCKET_HOST_URL=ws://localhost:8085/dashboard
   ```
 
-6. **Start REST Client Data Generator**
-
-  - go to this directory: https://github.com/jtmelton/appsensor/tree/master/sample-apps/appsensor-ws-rest-client-boot-data-generator
-  - run this command:
-  
-  ```
-  mvn spring-boot:run
-  ```
-
-7. **Start AppSensorUI**
+6. **Start AppSensorUI**
 
   - go to this directory: [../appsensor-ui](../appsensor-ui)
   - run this command:
@@ -65,11 +40,11 @@ These instructions will help you get setup to run a demo similar to what was don
   mvn spring-boot:run -DAPPSENSOR_REST_REPORTING_ENGINE_URL=http://localhost:8085 -DAPPSENSOR_CLIENT_APPLICATION_ID_HEADER_NAME=X-Appsensor-Client -DAPPSENSOR_CLIENT_APPLICATION_ID_HEADER_VALUE=clientui -DAPPSENSOR_WEB_SOCKET_HOST_URL=ws://localhost:8085/dashboard -Dspring.datasource.url=jdbc:mysql://localhost/appsensor -Dspring.datasource.username=appsensor_user -Dspring.datasource.password=appsensor_pass
   ```
   
-8. **Login**
+7. **Login**
 
   - open your browser to : http://localhost:8084
   - When prompted login with user ```uberuser``` and password ```uberuser```.
   
   
 
-This set of instructions should get the demo going for you. If you have problems, please file an issue: https://github.com/jtmelton/appsensor/issues/new.
+This set of instructions should get the demo going for you. If you have problems, please file an issue: https://github.com/tghosth/appsensor/issues/new.
