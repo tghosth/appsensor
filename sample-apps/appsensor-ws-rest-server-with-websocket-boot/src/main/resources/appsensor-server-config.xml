@@ -18,27 +18,10 @@
 		<client-application>
 			<name>clientui</name>
 			<roles>
-				<role>ADD_EVENT</role>
-				<role>ADD_ATTACK</role>
-				<role>GET_RESPONSES</role>
 				<role>EXECUTE_REPORT</role>	
 			</roles>
 		</client-application>
 	</client-applications>
-<!--
-	<correlation-config>
-		<correlated-client-set>
-			<client-application-name>A</client-application-name>
-			<client-application-name>B</client-application-name>
-			<client-application-name>C</client-application-name>
-		</correlated-client-set>
-		<correlated-client-set>
-			<client-application-name>X</client-application-name>
-			<client-application-name>Y</client-application-name>
-			<client-application-name>Z</client-application-name>
-		</correlated-client-set>
-	</correlation-config>
--->
 	<detection-points>
 		<detection-point>
 			<category>Input Exception</category>
