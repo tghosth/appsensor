@@ -16,7 +16,7 @@
 			</roles>
 		</client-application>
 	</client-applications>
-
+	<!--
 	<correlation-config>
 		<correlated-client-set>
 			<client-application-name>A</client-application-name>
@@ -29,7 +29,7 @@
 			<client-application-name>Z</client-application-name>
 		</correlated-client-set>
 	</correlation-config>
-
+	-->
 	<detection-points>
 		<detection-point>
 			<category>Input Exception</category>
