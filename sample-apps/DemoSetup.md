@@ -40,7 +40,7 @@ These instructions will help you get setup to run a demo similar to what was don
 
 5. **Start REST / WebSocket Server**
 
-  - go to this directory: https://github.com/jtmelton/appsensor/tree/master/sample-apps/appsensor-ws-rest-server-with-websocket-boot
+  - go to this directory: [appsensor-ws-rest-server-with-websocket-boot](appsensor-ws-rest-server-with-websocket-boot)
   - run this command:
   
   ```
@@ -58,7 +58,7 @@ These instructions will help you get setup to run a demo similar to what was don
 
 7. **Start AppSensorUI**
 
-  - go to this directory: https://github.com/jtmelton/appsensor/tree/master/appsensor-ui
+  - go to this directory: [../appsensor-ui](../appsensor-ui)
   - run this command:
   
   ```
