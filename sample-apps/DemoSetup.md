@@ -9,10 +9,12 @@ These instructions will help you get setup to run a demo similar to what was don
   
 2. **Get AppSensor Code**
 
-  - clone the repo (or your fork)
+  - clone the repo fork and switch to the appsensor-nodejs-test branch
   
     ```
-    git clone https://github.com/jtmelton/appsensor.git
+    git clone https://github.com/tghosth/appsensor.git
+    cd appsensor
+    git checkout appsensor-nodejs-test
     ```
 3. **Install MySQL**
 
