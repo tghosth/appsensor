@@ -15,6 +15,13 @@
 				<role>EXECUTE_REPORT</role>	
 			</roles>
 		</client-application>
+		<client-application>
+			<name>client-UI</name>
+			<roles>
+				<role>GET_RESPONSES</role>
+				<role>EXECUTE_REPORT</role>	
+			</roles>
+		</client-application>
 	</client-applications>
 	<!--
 	<correlation-config>
