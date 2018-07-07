@@ -47,4 +47,4 @@ These instructions will help you get setup to run a demo similar to what was don
   
   
 
-This set of instructions should get the demo going for you. If you have problems, please file an issue: https://github.com/tghosth/appsensor/issues/new.
+This set of instructions should get the demo going for you.
