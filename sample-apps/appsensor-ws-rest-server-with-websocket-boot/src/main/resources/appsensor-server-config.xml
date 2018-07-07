@@ -3,7 +3,7 @@
 	
 	<client-application-identification-header-name>X-Appsensor-Client</client-application-identification-header-name>
 	
-	<geolocation enabled="true" databasePath="src/main/resources/GeoLite2-City.mmdb" />
+	<geolocation enabled="false"/>
 	
 	<client-applications>
 		<client-application>
