@@ -7,7 +7,7 @@
 	
 	<client-applications>
 		<client-application>
-			<name>myclientgeoapp1</name>
+			<name>appsensor-nodejs-test</name>
 			<roles>
 				<role>ADD_EVENT</role>
 				<role>ADD_ATTACK</role>
