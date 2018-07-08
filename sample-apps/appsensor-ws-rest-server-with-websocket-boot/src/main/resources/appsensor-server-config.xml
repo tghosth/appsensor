@@ -85,7 +85,7 @@
 			<responses>
 				<response>
 					<action>disable</action>
-					<interval unit="minutes">10</interval>
+					<interval unit="minutes">1</interval>
 				</response>
 			</responses>
 		</detection-point>
