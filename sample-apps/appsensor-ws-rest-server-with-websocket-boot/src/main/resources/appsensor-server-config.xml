@@ -80,6 +80,7 @@
 			<id>AE8</id>
 			<threshold>
 				<count>1</count>
+				<interval unit="seconds">5</interval>
 			</threshold>
 			<responses>
 				<response>
