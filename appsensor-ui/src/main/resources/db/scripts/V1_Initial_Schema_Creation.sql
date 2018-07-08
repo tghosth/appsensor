@@ -3,8 +3,8 @@ create database appsensorjuiceshop;
 use appsensorjuiceshop;
 
 -- ***** Do NOT use this section in PROD
-CREATE USER 'appsensor_user'@'localhost' IDENTIFIED BY 'appsensor_pass';
-GRANT ALL ON appsensorjuiceshop.* TO 'appsensor_user'@'localhost';
+CREATE USER 'appsensor_user2'@'localhost' IDENTIFIED BY 'appsensor_pass2';
+GRANT ALL ON appsensorjuiceshop.* TO 'appsensor_user2'@'localhost';
 FLUSH PRIVILEGES;
 
 -- ********************  CORE TABLES **********************
