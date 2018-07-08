@@ -1,10 +1,10 @@
 -- ********************  DB **********************
-create database appsensor;
-use appsensor;
+create database appsensorjuiceshop;
+use appsensorjuiceshop;
 
 -- ***** Do NOT use this section in PROD
 CREATE USER 'appsensor_user'@'localhost' IDENTIFIED BY 'appsensor_pass';
-GRANT ALL ON appsensor.* TO 'appsensor_user'@'localhost';
+GRANT ALL ON appsensorjuiceshop.* TO 'appsensor_user'@'localhost';
 FLUSH PRIVILEGES;
 
 -- ********************  CORE TABLES **********************
@@ -96,10 +96,10 @@ INSERT INTO `group_users` (username, group_id) VALUES ('uberuser', (select id fr
 INSERT INTO `group_users` (username, group_id) VALUES ('uberuser', (select id from `groups` where group_name = 'USER_ADMINISTRATOR'));
 
 								    ---- sysadmin gets just #2
-INSERT INTO `user_client_applications` (username, client_application_name) VALUES ('sysadmin', 'appsensor-nodejs-test');
+INSERT INTO `user_client_applications` (username, client_application_name) VALUES ('sysadmin', 'appsensor-juice-shop-test');
 ---- useradmin gets nothing
 ---- uberuser gets all client apps
 INSERT INTO `user_client_applications` (username, client_application_name) VALUES ('uberuser', 'clientui');
-INSERT INTO `user_client_applications` (username, client_application_name) VALUES ('uberuser', 'appsensor-nodejs-test');
+INSERT INTO `user_client_applications` (username, client_application_name) VALUES ('uberuser', 'appsensor-juice-shop-test');
 
 
