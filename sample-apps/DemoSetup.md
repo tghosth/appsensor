@@ -39,7 +39,7 @@ These instructions will help you get setup to run a demo similar to what was don
   - run this command:
   
   ```
-  mvn spring-boot:run -DAPPSENSOR_REST_REPORTING_ENGINE_URL=http://localhost:8085 -DAPPSENSOR_CLIENT_APPLICATION_ID_HEADER_NAME=X-Appsensor-Client -DAPPSENSOR_CLIENT_APPLICATION_ID_HEADER_VALUE=clientui -DAPPSENSOR_WEB_SOCKET_HOST_URL=ws://localhost:8085/dashboard -Dspring.datasource.url=jdbc:mysql://localhost/appsensor -Dspring.datasource.username=appsensor_user -Dspring.datasource.password=appsensor_pass
+  mvn spring-boot:run -DAPPSENSOR_REST_REPORTING_ENGINE_URL=http://localhost:8085 -DAPPSENSOR_CLIENT_APPLICATION_ID_HEADER_NAME=X-Appsensor-Client -DAPPSENSOR_CLIENT_APPLICATION_ID_HEADER_VALUE=clientui -DAPPSENSOR_WEB_SOCKET_HOST_URL=ws://localhost:8085/dashboard -Dspring.datasource.url=jdbc:mysql://localhost/appsensorjuiceshop -Dspring.datasource.username=appsensor_user2 -Dspring.datasource.password=appsensor_pass2
   ```
   
 7. **Login**
