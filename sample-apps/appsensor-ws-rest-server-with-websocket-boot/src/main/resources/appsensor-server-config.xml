@@ -77,6 +77,19 @@
 		</detection-point>
 		<detection-point>
 			<category>Authentication Exception</category>
+			<id>AE8</id>
+			<threshold>
+				<count>1</count>
+			</threshold>
+			<responses>
+				<response>
+					<action>disable</action>
+					<interval unit="minutes">10</interval>
+				</response>
+			</responses>
+		</detection-point>
+		<detection-point>
+			<category>Authentication Exception</category>
 			<id>AE4</id>
 			<threshold>
 				<count>8</count>
