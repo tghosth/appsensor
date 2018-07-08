@@ -7,7 +7,7 @@
 	
 	<client-applications>
 		<client-application>
-			<name>appsensor-nodejs-test</name>
+			<name>appsensor-juice-shop-test</name>
 			<roles>
 				<role>ADD_EVENT</role>
 				<role>ADD_ATTACK</role>
