@@ -33,7 +33,7 @@
 			</threshold>
 			<responses>
 				<response>
-					<action>silentfail</action>
+					<action>SilentFail</action>
 					<interval unit="minutes">1</interval>
 				</response>
 			</responses>
@@ -48,7 +48,7 @@
 			</threshold>
 			<responses>
 				<response>
-					<action>disable</action>
+					<action>Disable</action>
 					<interval unit="minutes">1</interval>
 				</response>
 			</responses>
