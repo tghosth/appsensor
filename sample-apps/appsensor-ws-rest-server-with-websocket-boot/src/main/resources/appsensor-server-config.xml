@@ -24,60 +24,24 @@
 	</client-applications>
 	<detection-points>
 		<detection-point>
-			<category>Input Exception</category>
-			<id>IE1</id>
-			<threshold>
-				<count>5</count>
-				<interval unit="seconds">20</interval>
-			</threshold>
-			<responses>
-				<response>
-					<action>log</action>
-					<interval unit="minutes">10</interval>
-				</response>
-				<response>
-					<action>logout</action>
-				</response>
-			</responses>
-		</detection-point>
-		<detection-point>
-			<category>Input Exception</category>
-			<id>IE1</id>
-			<threshold>
-				<count>30</count>
-				<interval unit="minutes">1</interval>
-			</threshold>
-			<responses>
-				<response>
-					<action>disable</action>
-					<interval unit="minutes">10</interval>
-				</response>
-				<response>
-					<action>logout</action>
-				</response>
-			</responses>
-		</detection-point>
-		<detection-point>
 			<category>Authentication Exception</category>
 			<id>AE2</id>
+			<!--Multiple Failed Passwords-->
 			<threshold>
-				<count>8</count>
+				<count>15</count>
 				<interval unit="seconds">20</interval>
 			</threshold>
 			<responses>
 				<response>
-					<action>throttle</action>
-					<interval unit="minutes">10</interval>
-				</response>
-				<response>
-					<action>log</action>
-					<interval unit="minutes">10</interval>
+					<action>silentfail</action>
+					<interval unit="minutes">1</interval>
 				</response>
 			</responses>
 		</detection-point>
 		<detection-point>
 			<category>Authentication Exception</category>
 			<id>AE8</id>
+			<!--Providing Only the Username-->
 			<threshold>
 				<count>1</count>
 				<interval unit="seconds">5</interval>
@@ -86,33 +50,6 @@
 				<response>
 					<action>disable</action>
 					<interval unit="minutes">1</interval>
-				</response>
-			</responses>
-		</detection-point>
-		<detection-point>
-			<category>Authentication Exception</category>
-			<id>AE4</id>
-			<threshold>
-				<count>8</count>
-				<interval unit="seconds">50</interval>
-			</threshold>
-			<responses>
-				<response>
-					<action>log</action>
-				</response>
-				<response>
-					<action>logout</action>
-				</response>
-				<response>
-					<action>disableUser</action>
-				</response>
-				<response>
-					<action>disableComponentForSpecificUser</action>
-					<interval unit="minutes">34</interval>
-				</response>
-				<response>
-					<action>disableComponentForAllUsers</action>
-					<interval unit="minutes">14</interval>
 				</response>
 			</responses>
 		</detection-point>
