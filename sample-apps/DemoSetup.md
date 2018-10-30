@@ -14,7 +14,7 @@ These instructions will help you get setup to run a demo similar to what was don
     ```
     git clone https://github.com/tghosth/appsensor.git
     cd appsensor
-    git checkout appsensor-nodejs-test
+    git checkout juice-shop-test
     ```
 3. **Install MySQL**
 
