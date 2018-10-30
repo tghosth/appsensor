@@ -23,6 +23,7 @@ These instructions will help you get setup to run a demo similar to what was don
 4. **Load Data into MySQL**
 
   - Run commands in this file: [../appsensor-ui/src/main/resources/db/scripts/V1_Initial_Schema_Creation.sql](../appsensor-ui/src/main/resources/db/scripts/V1_Initial_Schema_Creation.sql) (including commented lines - uncomment and run)
+  - Run commands in this file: [appsensor-ws-rest-server-with-websocket-mysql-boot/create.sql](appsensor-ws-rest-server-with-websocket-mysql-boot/create.sql)
 
 5. **Start REST / WebSocket Server**
 
