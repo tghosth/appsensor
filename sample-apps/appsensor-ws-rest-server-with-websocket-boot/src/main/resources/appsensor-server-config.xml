@@ -54,7 +54,7 @@
 			</responses>
 		</detection-point>
 		<detection-point>
-			<category>Authentication Exception</category>
+			<category>Honey Trap</category>
 			<id>HT2</id>
 			<!--Honey Trap Resource Requested-->
 			<threshold>
@@ -69,7 +69,7 @@
 			</responses>
 		</detection-point>
 		<detection-point>
-			<category>Authentication Exception</category>
+			<category>Honey Trap</category>
 			<id>HT3</id>
 			<!--Honey Trap Data Used-->
 			<threshold>
