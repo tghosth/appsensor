@@ -53,6 +53,36 @@
 				</response>
 			</responses>
 		</detection-point>
+		<detection-point>
+			<category>Authentication Exception</category>
+			<id>HT2</id>
+			<!--Honey Trap Resource Requested-->
+			<threshold>
+				<count>1</count>
+				<interval unit="seconds">5</interval>
+			</threshold>
+			<responses>
+				<response>
+					<action>BlockIP</action>
+					<interval unit="minutes">5</interval>
+				</response>
+			</responses>
+		</detection-point>
+		<detection-point>
+			<category>Authentication Exception</category>
+			<id>HT3</id>
+			<!--Honey Trap Data Used-->
+			<threshold>
+				<count>1</count>
+				<interval unit="seconds">5</interval>
+			</threshold>
+			<responses>
+				<response>
+					<action>BlockIP</action>
+					<interval unit="minutes">5</interval>
+				</response>
+			</responses>
+		</detection-point>
 	</detection-points>
 
 </appsensor-server-config>
